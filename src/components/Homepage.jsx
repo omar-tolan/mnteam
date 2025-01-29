@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './Navbar'
 import HomeCard from './Cards/HomeCard'
 import Trainer from './Cards/Trainer'
-import Testimonials from './Cards/Testimonials'
+import Testimonials from './Testimonials'
+import Services from './Services'
 
 function Homepage() {
   return (
@@ -13,6 +14,7 @@ function Homepage() {
       </div>    
       <Trainer />
       <Testimonials />
+      <Services />
     </div>
   )
 }
