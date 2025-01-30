@@ -3,7 +3,7 @@ import React from 'react';
 function Trainer() {
   return (
     <div className="bg-black text-white flex flex-col items-center justify-center h-full w-full p-6 md:max-w-[98%] md:rounded-4xl md:mt-5 md:mx-2">
-      <p className="text-[35px] text-center mb-4 md:text-[50px] md:mb-10">Get to know your personal trainer.</p>
+      <p className="text-[35px] text-center mb-4 md:text-[50px] md:mb-10">اتعرف على مدربك الجديد</p>
       <div className="w-full relative" style={{ paddingBottom: "56.25%", height: 0 }}>
         <iframe 
         style={{
