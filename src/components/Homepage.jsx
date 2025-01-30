@@ -5,6 +5,7 @@ import Trainer from './Cards/Trainer'
 import Testimonials from './Testimonials'
 import Services from './Services'
 import Plans from './Plans'
+import Steps from './Steps'
 
 function Homepage() {
   return (
@@ -17,6 +18,7 @@ function Homepage() {
       <Testimonials />
       <Services />
       <Plans />
+      <Steps />
     </div>
   )
 }

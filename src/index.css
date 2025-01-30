@@ -4,6 +4,11 @@
     background-size: cover;
     background-position: center;
   }
+  .steps-image {
+    background-image: url('/public/steps/steps.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+  }
   .nadia {
     background-image: url('/public/clients/nadia.svg'); /* Path to your image */
     background-size: cover;
