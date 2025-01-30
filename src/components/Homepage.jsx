@@ -6,6 +6,7 @@ import Testimonials from './Testimonials'
 import Services from './Services'
 import Plans from './Plans'
 import Steps from './Steps'
+import Footer from './Footer'
 
 function Homepage() {
   return (
@@ -19,6 +20,7 @@ function Homepage() {
       <Services />
       <Plans />
       <Steps />
+      <Footer />
     </div>
   )
 }
