@@ -4,9 +4,9 @@ import CardTwo from './Cards/CardTwo'
 
 function Services() {
   return (
-    <div className='flex flex-col items-center'>
-        <p className='text-black text-3xl mt-5 mb-4'>Our Services</p>
-        <div className='flex flex-col items-center md:flex-wrap md:flex-row space-y-2'>
+    <div className='flex flex-col items-center w-full'>
+        <p className='text-black text-[35px] text-center mb-4 mt-4 md:text-[50px] md:mb-10'>Our Services</p>
+        <div className='flex flex-col items-center space-y-2 md:flex-row md:items-start md:w-screen'>
             <CardOne />
             <CardTwo />
         </div>
