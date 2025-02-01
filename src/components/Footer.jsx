@@ -13,9 +13,9 @@ function Footer() {
             </div><div className='flex flex-col'>
                 <p className='text-[14px] text-right md:text-[30px]'>تابعنا على مواقع التواصل الاجتماعى</p>
                 <div className='flex flex-row justify-end space-x-2'>
-                    <img className='h-[20px]' src='/assets/icons8-facebook.svg'/>
-                    <img className='h-[20px]' src='/assets/icons8-instagram.svg'/>
-                    <img className='h-[20px]' src='/assets/icons8-x.svg'/>
+                    <img className='h-[20px]' src='assets/icons8-facebook.svg'/>
+                    <img className='h-[20px]' src='assets/icons8-instagram.svg'/>
+                    <img className='h-[20px]' src='assets/icons8-x.svg'/>
                 </div>
             </div>
         </div>
