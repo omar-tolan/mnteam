@@ -12,7 +12,7 @@ function PlanCard({duration, price, services}) {
         <ul className='flex flex-col flex-grow space-y-1 mb-6'>
             {services.map((service, index) => {
                 return(<li key={index} className=''>
-                    <div className='flex flex-row'><img className='w-[15px] mx-1' src='/assets/bullet.svg' />{service}</div>
+                    <div className='flex flex-row'><img className='w-[15px] mx-1' src='assets/bullet.svg' />{service}</div>
                 </li>)
             })}
         </ul>

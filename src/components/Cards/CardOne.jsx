@@ -7,7 +7,7 @@ function CardOne() {
         <p className='text-bold text-[30px] text-right'>برنامج تمارين المقاومة</p>
         <p className='text-light text-l mb-8 text-right'>برنامج تدريب القوة هو الأساس لزيادة العضلات. باستخدام منهج علمي، نقدم نظامًا مخصصًا لتحقيق أقصى نتائج بسرعة.</p>
       </div>
-        <img className='w-[62%]' src='/services/cardOne.svg' alt='exercise' />
+        <img className='w-[62%]' src='services/cardOne.svg' alt='exercise' />
     </div>
   )
 }
