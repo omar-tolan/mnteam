@@ -1,7 +1,7 @@
 import React from 'react'
 import PlanButton from '../Buttons/PlanButton'
 
-function PlanCard({duration, price, services}) {
+function PlanCard({duration, price, services, handleSub}) {
   return (
     <div className='flex flex-col items-center rounded-2xl border-2 border-white px-4 py-6 space-y-3 md:h-full'>
         <div className='flex- flex-col items-center'>
@@ -16,7 +16,7 @@ function PlanCard({duration, price, services}) {
                 </li>)
             })}
         </ul>
-        <PlanButton />    
+        <PlanButton handleSub={handleSub}/>    
     </div>
   )
 }
