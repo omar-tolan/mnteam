@@ -18,7 +18,7 @@ function Homepage() {
   };
   const handleVid = () => {
     setIsVidShown(!isVidShown);
-    document.body.style.overflow=isVidShown?"auto":"hidden";
+    document.body.style.overflow = isVidShown ? "auto" : "hidden";
   };
   return (
     <div className={"flex flex-col justify-center items-center"}>
@@ -27,7 +27,7 @@ function Homepage() {
         <HomeCard />
       </div>
       <Trainer />
-      <Testimonials handleVid={handleVid} isVidShown={isVidShown}/>
+      <Testimonials handleVid={handleVid} isVidShown={isVidShown} />
       <Element name="services">
         <Services />
       </Element>

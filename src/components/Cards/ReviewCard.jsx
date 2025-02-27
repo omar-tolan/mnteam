@@ -4,7 +4,7 @@ import VideoModal from "../Modals/VideoModal";
 function ReviewCard({ user, handleVid, handleUser }) {
   const openVid = () => handleVid;
   const className =
-    "flex flex-col justify-end min-h-[80vh] min-w-[90vw] rounded-4xl px-8 pb-8 md:max-h-[20vh] md:min-w-[28vw] " +
+    "flex flex-col justify-end min-h-[80vh] min-w-[90vw] rounded-4xl px-8 pb-8 md:max-h-[20vh] md:min-w-[28vw] cursor-pointer " +
     user.thumbnail;
   return (
     <div>

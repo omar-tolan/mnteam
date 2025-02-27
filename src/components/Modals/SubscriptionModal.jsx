@@ -6,7 +6,7 @@ const SubscriptionModal = ({ handleSub }) => {
   return (
     <div className="w-full h-screen backdrop-blur-md z-50 fixed inset-0">
       <div className="px-10 py-8 w-[70%] h-[50%] bg-white rounded-3xl fixed inset-0 mx-auto my-auto justify-center bg-opacity-50 backdrop-blur-md">
-        <div onClick={close()} className="w-20 h-20 rounded-full absolute top-5 right-5">
+        <div onClick={close()} className="w-20 h-20 rounded-full absolute top-5 right-5 cursor-pointer">
           <img className="w-6 absolute top-5 right-5" src="assets/close.svg" />
         </div>
         <div className="flex flex-col items-center mt-8">

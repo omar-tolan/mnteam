@@ -6,7 +6,7 @@ const VideoModal = ({ handleVid, user }) => {
     <div className="w-full h-screen backdrop-blur-md z-50 fixed inset-0">
       <div className="w-[90%] h-[90%] flex-grow overflow-y-auto px-10 py-8 rounded-3xl bg-black fixed mx-auto my-auto inset-0 z-50 flex flex-col items-center">
         <div className="flex flex-row justify-end w-full">
-          <div className="rounded-full h-8 w-8 p-2 bg-[#DB2E10] mb-8">
+          <div className="rounded-full h-8 w-8 p-2 bg-[#DB2E10] mb-8 cursor-pointer">
             <img src="assets/close.svg" onClick={close()} />
           </div>
         </div>
