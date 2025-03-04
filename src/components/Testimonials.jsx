@@ -4,9 +4,10 @@ import ReviewCard from "./Cards/ReviewCard";
 
 function Testimonials({ handleVid, isVidShown }) {
   const users = {
-    aly: { name: "Aly", plan: "12 Months", thumbnail: "aly" },
-    layla: { name: "Layla", plan: "4 Months", thumbnail: "layla" },
-    nadia: { name: "Nadia", plan: "3 Months", thumbnail: "nadia" },
+    youssef: { name: "يوسف احمد", plan: "دكتور يوسف احمد طالب في طب بشري ١٨ سنه بيتمرن معايا بقاله ٤ سنين", thumbnail: "youssefahmed" },
+    mohamed: { name: "محمد هيبة", plan: "محمد هيبا ٢٢ سنه مهندس مدني بيتمرن معايا من ٥ سنين", thumbnail: "mohamedheba" },
+    ahmed: { name: "احمد عامر", plan: "ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه", thumbnail: "ahmedamer" },
+    mahmoud: { name: "محمود رانى", plan: "ده محمود راني ١٥ سنه بيتمرن معايا و هو عنده ١٣ سنه عمل تحول رهييب", thumbnail: "mahmoudrany" },
   };
   const [selectedUser, setSelectedUser] = useState(null);
   const handleUser = (user) => {
@@ -19,18 +20,26 @@ function Testimonials({ handleVid, isVidShown }) {
       <p className="text-black text-[35px] text-center mb-4 mt-4 md:text-[50px] md:mb-10">
         اسمع قصص النجاح
       </p>
-      <div className="flex flex-row overflow-y-auto justify-start space-x-6 px-4 md:justify-center md:px-10">
+      <div className="flex flex-row overflow-y-auto justify-start space-x-6 px-4 md:justify-start md:px-10">
         <ReviewCard
-          user={users["nadia"]}
-          handleVid={() => handleUser(users["nadia"])}
+          user={users["youssef"]}
+          txt="ده عمر وليد ١٥ سنه بيتمرن معايا بقاله ٣ سنين تحول رهيب"
+          handleVid={() => handleUser(users["omar"])}
         />
         <ReviewCard
-          user={users["aly"]}
-          handleVid={() => handleUser(users["aly"])}
+          user={users["mohamed"]}
+          txt="محمد هيبا ٢٢ سنه مهندس مدني بيتمرن معايا من ٥ سنين"
+          handleVid={() => handleUser(users["mohamed"])}
         />
         <ReviewCard
-          user={users["layla"]}
-          handleVid={() => handleUser(users["layla"])}
+          user={users["ahmed"]}
+          txt="ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه"
+          handleVid={() => handleUser(users["ahmed"])}
+        />
+        <ReviewCard
+          user={users["mahmoud"]}
+          txt="ده محمود راني ١٥ سنه بيتمرن معايا و هو عنده ١٣ سنه عمل تحول رهييب"
+          handleVid={() => handleUser(users["mahmoud"])}
         />
       </div>
     </div>

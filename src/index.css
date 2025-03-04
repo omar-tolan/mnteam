@@ -1,5 +1,4 @@
 @layer components {
-  
   .font-cairo{
       font-family: "Cairo", serif;
       font-optical-sizing: auto;
@@ -8,7 +7,6 @@
       font-variation-settings:
         "slnt" 0;
   }
-
   .bg-custom-image {
     background-image: url('/public/homepage/home.jpg'); /* Path to your image */
     background-size: cover;
@@ -19,17 +17,22 @@
     background-size: cover;
     background-position: center;
   }
-  .nadia {
+  .omarwaleed {
     background-image: url('/public/clients/nadia.svg'); /* Path to your image */
     background-size: cover;
     background-position: center;
   }
-  .aly {
+  .mahmoudrany {
     background-image: url('/public/clients/aly.svg'); /* Path to your image */
     background-size: cover;
     background-position: center;
   }
-  .layla {
+  .mohamedheba {
+    background-image: url('/public/clients/layla.svg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  .ahmedamer {
     background-image: url('/public/clients/layla.svg'); /* Path to your image */
     background-size: cover;
     background-position: center;
@@ -51,3 +54,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
