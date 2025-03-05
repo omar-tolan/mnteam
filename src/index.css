@@ -1,44 +1,26 @@
 @layer components {
-  .font-cairo{
-      font-family: "Cairo", serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-      font-variation-settings:
-        "slnt" 0;
+  .font-cairo {
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
   }
+
   .bg-custom-image {
-    background-image: url('/public/homepage/home.jpg'); /* Path to your image */
+    background-image: url("/public/homepage/home2.jpg"); /* Path to your image */
     background-size: cover;
-    background-position: center;
+    background-position: 0px -200px;
   }
-  .steps-image {
-    background-image: url('/public/steps/steps.jpg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-  }
-  .omarwaleed {
-    background-image: url('/public/clients/nadia.svg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-  }
-  .mahmoudrany {
-    background-image: url('/public/clients/aly.svg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-  }
-  .mohamedheba {
-    background-image: url('/public/clients/layla.svg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-  }
-  .ahmedamer {
-    background-image: url('/public/clients/layla.svg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
+
+  @media (max-width: 768px) {
+    .bg-custom-image {
+      background-image: url("/public/homepage/home2.jpg"); /* Path to your image */
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
-
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -54,4 +36,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

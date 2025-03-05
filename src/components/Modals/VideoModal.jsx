@@ -13,12 +13,12 @@ const VideoModal = ({ handleVid, user }) => {
         <p className="text-2xl text-center">قصة {user.name}</p>
         <div className="w-full h-auto px-1 py-1 mt-6 ">
           <video className="mx-auto" width="320" height="240" controls autoPlay={false} poster={`clients/${user.name.toLowerCase()}.svg`}>
-            <source src={`clients/${user.thumbnail}.webm`} type="video/webm" />
+            <source src={`clients/vids/${user.thumbnail}.webm`} type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
         <p className="text-xl mt-5">شوف نتايج {user.name}</p>
-        <img className="mt-4" src="clients/laylat.jpg" alt="layla-transformation"></img>
+        <img className="mt-4" src={`clients/transformation/${user.thumbnail}.svg`} alt="transformation-pic"></img>
       </div>
     </div>
   );

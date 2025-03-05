@@ -36,7 +36,6 @@ function Homepage() {
         <Plans handleSub={handleSub} />
       </Element>
       <Element name="cv">
-        <Steps />
       </Element>
       <Footer />
     </div>

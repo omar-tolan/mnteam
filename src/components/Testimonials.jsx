@@ -4,10 +4,10 @@ import ReviewCard from "./Cards/ReviewCard";
 
 function Testimonials({ handleVid, isVidShown }) {
   const users = {
-    youssef: { name: "يوسف احمد", plan: "دكتور يوسف احمد طالب في طب بشري ١٨ سنه بيتمرن معايا بقاله ٤ سنين", thumbnail: "youssefahmed" },
-    mohamed: { name: "محمد هيبة", plan: "محمد هيبا ٢٢ سنه مهندس مدني بيتمرن معايا من ٥ سنين", thumbnail: "mohamedheba" },
-    ahmed: { name: "احمد عامر", plan: "ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه", thumbnail: "ahmedamer" },
-    mahmoud: { name: "محمود رانى", plan: "ده محمود راني ١٥ سنه بيتمرن معايا و هو عنده ١٣ سنه عمل تحول رهييب", thumbnail: "mahmoudrany" },
+    youssef: { name: "يوسف احمد", plan: "دكتور يوسف احمد طالب في طب بشري ١٨ سنه بيتمرن معايا بقاله ٤ سنين", thumbnail: "youssef" },
+    mohamed: { name: "محمد هيبة", plan: "محمد هيبا ٢٢ سنه مهندس مدني بيتمرن معايا من ٥ سنين", thumbnail: "mohamed" },
+    ahmed: { name: "احمد عامر", plan: "ده احمد رضوان  ال cfo للبنك الاهلي بقاله معايا ٤ سنين و خسر حوالي ٣٠ كيلو دهون و اكتسب كتله عضليه محترمه", thumbnail: "ahmed" },
+    mahmoud: { name: "محمود رانى", plan: "ده محمود راني ١٥ سنه بيتمرن معايا و هو عنده ١٣ سنه عمل تحول رهييب", thumbnail: "mahmoud" },
   };
   const [selectedUser, setSelectedUser] = useState(null);
   const handleUser = (user) => {
@@ -24,7 +24,7 @@ function Testimonials({ handleVid, isVidShown }) {
         <ReviewCard
           user={users["youssef"]}
           txt="ده عمر وليد ١٥ سنه بيتمرن معايا بقاله ٣ سنين تحول رهيب"
-          handleVid={() => handleUser(users["omar"])}
+          handleVid={() => handleUser(users["youssef"])}
         />
         <ReviewCard
           user={users["mohamed"]}
